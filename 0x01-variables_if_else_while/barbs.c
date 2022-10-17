@@ -1,20 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - code using putchar
+ * main - use putchar to print alphabets
  *
  * Return: 0
 */
 int main(void)
 {
-	char ch = 'a';
+	char x =;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++);
-
+	for (x = 'A' ; x <= 'Z' ; x++);
 	{
-		putchar(ch);
+		putchar(tolower(x));
+		putchar('\n');
 	}
-
-	putchar('\n');
 	return (0);
 }
 

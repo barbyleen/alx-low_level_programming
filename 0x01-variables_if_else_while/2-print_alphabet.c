@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - code using putchar
+ * main - print the alphabet in lowercase, followed by a new line.
  *
  * Return: 0
 */
@@ -8,11 +8,11 @@ int main(void)
 {
 	char ch = 'a';
 
-	for (ch = 'a' ; ch <= 'z' ; ch++);
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		putchar(ch);
+		putchar('\n');
 	}
-	putchar('\n');
 	return (0);
 }
 
